@@ -7,7 +7,7 @@ public class Adder {
 		String response = in.nextLine();
 		in.close(); //there, now shut up please Eclipse
 		System.out.println("resp got");
-		Scanner s = new Scanner(response).useDelimiter("(((\\s*)(?:\\+)(\\s*))|((\\s*)(?:-)(\\s*)))");;
+		Scanner s = new Scanner(response).useDelimiter("(((\\s*)(?:\\+)(\\s*))|((\\s*)(?:-)(\\s*)))");
 		Scanner sign = new Scanner(response);
 		System.out.println("scanner made + delim created & in use");
 		int sum = 0;
